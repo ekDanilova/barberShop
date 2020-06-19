@@ -3,14 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Барбершоп "Бородинский"</title>
-		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<header class="main-header">
 			<div class="container">
+				<img src="img/mini-logo.png" alt="logo" width="111px">
 				<nav class="main-navigation">
 					<ul>
-						<li><a href="#">Информация</a></li>
+						<li class="nav-chosen"><a href="#">Информация</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Прайс-лист</a></li>
 						<li><a href="#">Магазин</a></li>
@@ -18,32 +19,38 @@
 					</ul>
 				</nav>
 				<div class="user-block">
-					<a class="login" href="#">Вход</a>
+					<a class="login" href="#"><img src="img/icon-login.png" alt="Вход">Вход</a>
 				</div>
 			</div>
 		</header>
 
 		<main class="container">
 			<div class="index-logo">
-				<img src="img/main-logo.svg" width="368" height="204" alt="Барбершоп Бородинский">
+				<img src="img/main-logo.png" width="368" height="204" alt="Барбершоп Бородинский">
 			</div>
 
 			<section class="features">
 				<div class="feature-item">
 					<b class="features-name">Быстро</b>
-					<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы – счастливый обладатель стильной стрижки-минутки!
+					<p>Мы делаем свою работу быстро! Два часа <br>
+						пролетят незаметно и вы – счастливый <br>
+						обладатель стильной стрижки-минутки!
 					</p>
 				</div>
 
 				<div class="feature-item">
 					<b class="features-name">Круто</b>
-					<p>Забудьте, как вы стриглись раньше! Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.
+					<p>Забудьте, как вы стриглись раньше! <br>
+						Мы сделаем из вас звезду футбола или кино! <br>
+						Во всяком случае внешне.
 					</p>
 				</div>
 
 				<div class="feature-item">
 					<b class="features-name">Дорого</b>
-					<p>Наши мастера – профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?
+					<p>Наши мастера – профессионалы своего дела и <br>
+						не могут стоить дешево. К тому же, разве цена <br>
+						не дает определенный статус?
 					</p>
 				</div>
 			</section>
@@ -64,32 +71,32 @@
 				<a class="btn" href="#">Все новости </a>
 				</div>
 
-				<div class="index-content-right">
+				<img src="img/vert-line.png" alt="">
+
+				<div class="index-content-right galery">
 					<h2 class="index-content-title">Фотогалерея</h2>
-					<div class="galery">
-						<figure class="galery-content">
-							<img src="img/galery1.jpg" width="286" height="164" alt="">
-						</figure>
+						<img src="img/galery1.jpg" width="286" height="164" alt="">
 						<button class="btn-galery-prev">Назад</button>
 						<button class="btn-galery-next">Вперед</button>
-					</div>
 				</div>
 			</div>
 
-			<div class="index-content">
+			<div class="index-content contact-info">
 				<div class="index-content-left">
 					<h2 class="index-content-title">Контактная информация</h2>
 					<p>Барбершоп Бородинский<br>
 					Адрес: г. Санкт-Петербург, Б. Конюшенная д. 19/8<br>
 					Телефон: +7 (911)-91-92
 					</p>
-					<p>Время работы:<br>
+					<p class="work-time">Время работы:<br>
 					пн-пт: с 8:00 до 20:00 <br>
 					сб-вс: с 10:00 до 22:00
 					</p>
 					<a class="btn" href="#">Как проехать</a>
 					<a class="btn" href="#">Обратная связь</a>
 				</div>
+
+				<img src="img/vert-line.png" alt="">
 
 				<div class="index-content-right">
 					<h2 class="index-content-title">Записаться</h2>
@@ -99,8 +106,8 @@
 					<form class="apointment-form" action="" method="post">
 						<input type="text" name="date" value="" placeholder="Дата">
 						<input type="text" name="time" value="" placeholder="Время">
-						<input type="text" name="name" value="" placeholder="Имя">
-						<input type="tel" name="phone" value="" placeholder="+7(999)90-90 ">
+						<input type="text" name="name" value="" placeholder="Ваше Имя">
+						<input type="tel" name="phone" value="" placeholder="телефон">
 						<button class="btn" type="submit">Отправить</button>
 					</form>
 				</div>
@@ -111,23 +118,25 @@
 		<footer class="main-footer">
 			<div class="container">
 				<section class="footer-contacts">
-					<p>Барбершоп Бородинский<br>
+					<p>Барбершоп «Бородинский»<br>
 					Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
 					<a href="#">Как нас найти?</a><br>
-					Телефон: +7(911)90-91
+					Телефон: +7(495)666-02-66
 					</p>
 				</section>
 
 				<section class="footer-social">
-					<p>Давайте дружить</p>
-					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-					<a class="social-btn social-btn-fb" href="">Фейсбук</a>
-					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+					<p>Давайте дружить!</p>
+					<a class="social-btn social-btn-vk" href="#"> <img src="img/vk.png" alt="Вконтакте"></a>
+					<a class="social-btn social-btn-fb" href="#"><img src="img/fb.png" alt="Фейсбук"></a>
+					<a class="social-btn social-btn-inst" href="#"><img src="img/inst.png" alt="Инстаграм"></a>
 				</section>
 
 				<section class="footer-copyright">
-					<p>Разработано:</p>
-					<a class="btn" href="#">&copy; Katrusya</a>
+					<p>Сайт создан:</p>
+					<a class="btn" href="#">&copy; Danilova Ekaterina</a>
+					<p>Дизайн разработан:</p>
+					<a class="btn" href="#">&copy; htmlacademy.ru</a>
 				</section>
 			</div>
 		</footer>

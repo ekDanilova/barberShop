@@ -1,0 +1,371 @@
+body {
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  background: url(img/bg.jpg) no-repeat;
+  background-color: #000;
+  background-size: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:hover {
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.nav-chosen {
+  border-bottom: 3px solid #fff;
+}
+
+/*Хедер*/
+
+.main-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  vertical-align: bottom;
+
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 16px;
+  color: #fff;
+
+  background-color: #000;
+  border: 0px;;
+}
+
+.main-header img {
+  display: inline-block;
+  padding-top: 21px;
+  padding-bottom: 24px;
+  margin-right: 35px;
+
+  vertical-align: bottom;
+}
+
+.main-header nav {
+  display: inline-block;
+  width: 70.5%;
+
+  vertical-align: bottom;
+}
+
+.user-block {
+  display: inline-block;
+  width: 16%;
+  padding-top: 20px;
+  padding-bottom: 23px;
+
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.user-block img {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 4px;
+  margin-right: 15px;
+
+  vertical-align: middle;
+}
+
+.main-navigation li {
+  display: inline-block;
+  margin-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-navigation a, .user-block a {
+  color: #fff;
+}
+
+.user-block a{
+  text-align: right;
+
+}
+
+/* Основной блок */
+/* Основной логотип */
+
+.index-logo {
+  text-align: center;
+  padding-top: 125px;
+}
+
+/* Преимущества */
+
+.feature-item {
+  display: inline-block;
+  width: 27.8%;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  text-align: center;
+  vertical-align: top;
+
+  background: url(img/romb.png) no-repeat;
+  background-position: 50% 30%;
+}
+
+.features :last-child {
+  margin-right: 0px;
+}
+
+.feature-item b {
+  font-size: 30px;
+  color: #f7f4f1;
+}
+
+.feature-item p {
+  margin-top: 77px;
+
+  color: #f7f4f1;
+}
+
+/* Новости и фотогалерея */
+
+.index-content {
+  margin-top: 80px;
+  padding: 54px 80px;
+
+  background: #fefbf8;
+}
+
+.index-content-left {
+  margin-right: 90px;
+}
+
+.index-content-right {
+  margin-left: 90px;
+}
+
+.index-content div {
+  display: inline-block;
+  width: 40%;
+
+  vertical-align: top;
+}
+
+.index-content h2 {
+  padding: 0px;
+  margin: 0px;
+
+  font-size: 30px;
+  color: #000;
+}
+
+/* Новостной блок */
+.index-content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: #000;
+}
+
+.index-content time {
+  font-weight: normal;
+  color: #000;
+}
+
+.index-content li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.index-content a.btn {
+  margin-top: 35px;
+  padding: 14px 35px;
+
+  color: #fff;
+
+  background: #000;
+  border: none;
+}
+
+/* Фотогалерея */
+.galery {
+  width: 100%;
+}
+
+.galery img {
+  padding: 3px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  background: #fff;
+}
+
+button.btn-galery-prev,
+button.btn-galery-next {
+  display: inline-block;
+  padding: 14px 48px;
+
+
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: #000;
+  border: none;
+}
+
+.btn-galery-prev {
+  margin-right: 20px;
+}
+
+/* Полоска-разделитель */
+
+.index-content img {
+  height: 100%;
+  margin-top: 30px;
+}
+
+/* Контактная информация */
+
+.contact-info p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p.work-time {
+  margin-bottom: 60px;
+}
+
+/*Форма записи */
+
+.apointment-form input {
+  padding: 15px;
+  margin-bottom: 20px;
+
+  border: 2px solid black;
+  background: #f7f4f1;
+}
+
+.apointment-form input:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.apointment-form input[placeholder] {
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.apointment-form button {
+  display: inline-block;
+  width: 87%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: #000;
+  border: none;
+}
+
+/* Футер */
+
+footer.main-footer {
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  background: #262626;
+}
+
+.main-footer section {
+  display: inline-block;
+  width: 28.5%;
+  margin-right: 80px;
+
+  vertical-align: top;
+}
+
+.main-footer section:last-child {
+  margin-right: 0px;
+}
+
+.main-footer p {
+  margin: 0px;
+}
+
+/* Ссылка на карту в футере*/
+
+.footer-contacts a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Социальные сети */
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social a {
+  padding: 15px;
+  padding-top: 25px;
+  margin-right: 3px;
+
+  background: black;
+}
+
+.footer-social p {
+  margin-bottom: 20px;
+}
+
+a.social-btn-fb {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Разработано */
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright a {
+  display: inline-block;
+  padding: 5px 10px;
+
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: #000;
+}
