@@ -1,15 +1,16 @@
 body {
-  font: bold 14px "PT Sans Narrow", sans-serif;
-  line-height: 24px;
-  color: #fff;
-  text-transform: uppercase;
-  background: url(img/bg.jpg) no-repeat;
+  background: url(img/add-bg.png) no-repeat;
   background-color: #000;
   background-size: 100%;
   padding: 0px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
+
+  font: bold 14px "PT Sans Narrow", sans-serif;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 a {
@@ -43,7 +44,17 @@ li.nav-chosen {
   border-bottom: 3px solid #fff;
 }
 
+/*index.html*/
 /*Хедер*/
+.main-body {
+  background: url(img/bg.jpg) no-repeat;
+  background-color: #000;
+  background-size: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .main-header {
   position: fixed;
@@ -104,6 +115,10 @@ li.nav-chosen {
   margin-right: 35px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.main-navigation li:hover {
+  border-bottom: 3px solid #fff;
 }
 
 .main-navigation a, .user-block a {
@@ -368,4 +383,88 @@ a.social-btn-fb {
   color: #fff;
 
   background: #000;
+}
+
+/* item.html */
+.item {
+  padding-top: 125px;
+
+  color: #000000;
+}
+
+.item ul {
+  margin-top: 29px;
+  margin-bottom: 50px;
+}
+
+li.bread-crops {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+li.bread-crops:last-child {
+  color: #aba9a7;
+}
+
+/* Ромбы для крошек начало*/
+.d19 {
+width: 0;
+height: 0;
+border: 5px solid transparent;
+border-bottom-color: #000000;
+position: relative;
+top: -4px;
+}
+.d19:after {
+content: "";
+width: 0;
+height: 0;
+position: absolute;
+left: -5px;
+top: 5px;
+border: 5px solid transparent;
+border-top-color: #000000;
+}
+/* Ромбы конец */
+
+
+/* Позиционирование основного содержимого item.html*/
+
+.product-images,
+.product-details {
+  display: inline-block;
+  width: 45%;
+  margin: 0px;
+}
+
+/* Изображения товара*/
+
+.product-images img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.product-image-additional {
+  margin-top: 15px;
+  margin-right: 17px;
+}
+
+.product-image-additional:last-child {
+  margin-right: 0px;
+}
+
+/* Текстовая информация на странице */
+.product-details {
+  vertical-align: top;
+}
+
+.pr-status {
+  display: inline-block;
+  width: 45%;
+}
+
+.pr-art {
+  display: inline-block;
+  width: 45%;
+  float: right;
+  text-align: right;
 }
